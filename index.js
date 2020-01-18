@@ -8,6 +8,9 @@ const {
 } = require('./env')
 const bot = new Telegraf(ENV.BOT_TOKEN)
 
+bot.start((ctx) => {
+    ctx.reply('Hi')
+})
 
 bot.on('text', handleMessage)
 
