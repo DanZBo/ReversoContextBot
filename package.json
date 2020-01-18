@@ -1,0 +1,21 @@
+{
+  "name": "reversobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DanZBo",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "envalid": "^6.0.0",
+    "https-proxy-agent": "^4.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "socks5-https-client": "^1.2.1",
+    "telegraf": "^3.35.0"
+  }
+}
